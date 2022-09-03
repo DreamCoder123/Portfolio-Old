@@ -1,0 +1,176 @@
+#back-col{
+    background-color: #080808;
+    height: 700px;
+    width: 100%;
+}
+.box1{
+    display: flex;
+     /* gap: 100px;  */
+     position: relative;
+     right: 100px;
+     /* top: 50px; */
+} 
+#maintext>p:first-child{
+    /* font-size: 50px; */
+    color: red;
+    overflow: hidden; 
+    border-right: 1px solid orange; 
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+#maintext>a:nth-child(2){
+    /* font-size: 50px; */
+    color: cadetblue;
+}
+#maintext>a:nth-child(3){
+    /* font-size: 50px; */
+    color:bisque;
+}
+#maintext>a:nth-child(4){
+    /* font-size: 50px; */
+    color:burlywood;
+}
+#maintext>a:nth-child(5){
+    /* font-size: 50px; */
+    color:coral;
+}
+
+/* Hower effect in name */
+
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+#maintext>a::after{
+  content: "I am";
+  text-decoration: none;
+  
+}
+
+#maintext>a:hover::after{
+  color: rgba(8, 5, 5, 0.904);
+  background-color: rgb(255, 166, 0);
+  content: "About";
+  text-decoration: none;
+  font-size: 65px auto;
+  margin-left: 30px;
+  
+}
+
+ #maintext>a+a::after{
+    content: "Mohammad";
+ }
+ #maintext>a+a:hover::after{
+     color: rgb(16, 19, 19);
+     background-color: rgb(241, 95, 95);
+     content: "Project";
+     font-size: 65px auto;
+    margin-left: 30px;
+  }
+  #maintext>a+a+a::after{
+    content: "Ashique";
+ }
+ #maintext>a+a+a:hover::after{
+     color: rgb(0, 0, 0);
+     background-color: rgb(45, 218, 218);
+     content: "Skills";
+     font-size: 65px auto;
+     margin-left: 30px; 
+  }
+  #maintext>a+a+a+a::after{
+    content: "Usmani";    
+ }
+ #maintext>a+a+a+a:hover::after{
+     color: rgb(0, 0, 0);
+     background-color: rgb(65, 167, 34);
+     content: "Contact us";
+     font-size: 65px auto;
+    margin-left: 30px;
+  }
+
+
+#maintext{
+    color: aliceblue;
+    margin-left:200px;
+    font-weight:700;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+#maintext>a>p{
+    margin-bottom: -30px;
+}
+#profile-image{
+        height: 500px;
+        width: 380px;
+        position:fixed;
+        left:60% ;  
+}
+#profile-image>img{
+    height: 100%;
+    width: 100%;
+
+}
+#resume{
+  margin-left: 40%;
+}
+button{
+  border-radius: 0px;
+  padding: 10px 40px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+    #profile-image {
+      height: 450px;
+      width: 300px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    #profile-image {
+      height: 300px;
+      width: 200px;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    #profile-image {
+      height: 150px;
+      width: 80px;
+      /* left: 30%; */
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #maintext{
+        /* margin-left: 10px; */
+      font-size: 30px;
+      font-weight: 500;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    #maintext{
+        /* margin-left: 30px; */
+        margin-left: 150px;
+      font-size: 25px;
+      font-weight: 300;
+    }
+  }

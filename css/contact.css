@@ -1,0 +1,109 @@
+#main{
+    width:90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+}
+
+
+#content{
+    font-family:Verdana, sans-serif;
+}
+
+body>h1{
+    text-align: center;
+    font-family:Verdana, sans-serif;
+}
+#content2{
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    height: 500px;
+    border-radius: 20px;
+    width: auto;
+}
+#content{
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* text-align: center; */
+    height: 400px;
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 10%;
+    align-items: center;
+}
+#name{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 300px;
+    height: 30px;
+}
+#email{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+}
+#Subject{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    width: 300px;
+    height: 30px;
+}
+#message{
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    background-color: coral;
+    border: 0px;
+    margin-left: 500px;
+}
+#content>p{
+    font-family:Verdana, sans-serif;
+    color: rgba(20, 18, 18, 0.774);
+    font-size: 15px;
+    margin-left: 15%;
+}
+#content2>form>p{
+    font-family:Verdana, sans-serif;
+    color: rgba(20, 18, 18, 0.774);
+    font-size: 15px;
+}
+form>p{
+    margin-right: 20px;
+}
+#content>div{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 8%;
+    
+}
+#image{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+/* Media query */
+@media only screen and(max-width:600px){
+    #main{
+        width:90%;
+        height: auto;
+        display:flex;
+        gap:10%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+}
