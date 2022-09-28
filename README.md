@@ -1,8 +1,21 @@
 # Portfolio-Old
 
-This Is Portfolio Website Which I have Created Using Some CSS Creativity Using HTML CSS and JAVASCRIPT 
+## Tech Stack
+#### HTML
+#### CSS 
+#### JAVASCRIPT
 
-Checkout Link Here:-https://ashiqueportfolio.netlify.app/
+
+## About
+This Is My Portfolio Website. 
+
+## Deploy Link
+Netlify Link 
+[https://funny-churros-0ef475.netlify.app/](https://ashiqueportfolio.netlify.app/)
+
+## How To Use IT
+
+Checkout Link Here:-
 
 ![Screenshot (1082)](https://user-images.githubusercontent.com/104290715/189985785-25944bf5-0761-418e-a19a-580cea93ade9.png)
 
