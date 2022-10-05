@@ -1,143 +1,137 @@
+.back-col {
+  background: #1a1e23;
+}
+h1 {
+  text-align: center;
+  margin-top: 70px;
+}
+h1,
+p,
+h3 {
+  font-family: "Noto Sans", sans-serif;
+  color: antiquewhite;
+}
+#main {
+  border: 1px solid white;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin: auto; */
+  gap: 0.5em;;
+}
 
-body{
-    background: #1a1e23;
-}
-h1{
-    text-align: center;
-    margin-top: 70px;
-    
-}
-#main2{
-    border: 1px solid white;
-    height: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-h1,p,h3{
-    font-family: 'Noto Sans', sans-serif;
-    color: antiquewhite;
-}
-.main{
-    height: auto;
-    /* display: flex; */
-    gap:5%;
-    width: 90%;
-   margin: auto;
-    /* margin-top: 20px; */
-    align-items: center;
-    /* justify-content: center; */
-    /* border: 1px solid yellow; */
 
-}
-#box1{
-    height: auto;
-    width: 35%;
-    /* border: 1px solid red; */
-    text-align: center;
-    border-radius: 5px;
-}
-#imagebox{
-    height: 250px;
-    width: 100%;
-    margin-right: 30%;
 
-}
-#imagebox>img{
-    height: 250px;
-    width: 100%;
 
+#box1 {
+  height: 100% ;
+  width: 50%;
+  /* border: 1px solid red; */
+  text-align: center;
+  border-radius: 5px;
 }
-#textbox{
-    width: 40%;
-    height: 50px;
+#imagebox {
+  height: 70%;
+  width: 100%;
+  margin-right: 30%;
+ 
+}
+#imagebox > img {
+  height: 100%;
+  width: 100%;
+  padding: 15px ;
+  /* border-radius:15px ; */
+}
+.text>h3 {
+    /* width: 40%; */
+    /* text-align: center; */
     margin: auto;
-    
-    text-align: center;
-}
-#text{
-    width: 40%;
-    text-align: center;
-    margin-top: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     /* margin-bottom: 50px; */
+  }
+#textbox {
+  width: 50%;
+  height: 50px;
+  margin-left: auto;
+  margin-top: 2%;
+
+  /* text-align: center; */
 }
-#text>p{
-    margin-bottom: 50px;
+#textbox> p>img{
+    width: 20px;
+    height: 20px;
 }
-#box2{
-    height: auto;
-    width: 35%;
-    /* border: 1px solid red; */
-    /* margin-top: 700px; */
-}
-#box3{
-    height: auto;
-    width: 35%;
-    /* border: 1px solid red; */
-    /* margin-top: 80px; */
-    display: block;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-}
-#link{
-    display: flex;
-    width: 100%;
-    height: 40px;
-    /* border: 1px solid yellow; */
-    
-    justify-content: space-between;
-}
-#linkbox{
-    height: 100%;
+#tech-stack {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+    margin: auto;
+  }
+  /* #tech-stack > div {
+    font-size: 30px;
+    padding: 0.2em;
+    height: 70px;
     width: 70px;
-    border: 1px solid gray;
-}
-#linkbox>p{
-    margin-top: 10px;
-}
+    margin: auto; */
+    /* color: #ffffff; */
+    /* background: #19a78a; */
+    /* text-align: center; */
+    /* border: 1px solid red; */
+  /* } */
+  /* #tech-stack > div>img{
+    height: 100%;
+    width: 100%;
+  } */
+
+
+
+
 
 button {
-    background-color: coral;
-    border-radius: 5px;
-    opacity: 0.6;
-    color: white;
-    padding: 16px 40px;
-    text-align: center;
-    /* margin-top: 50px; */
-    vertical-align: middle;
-    opacity: 2;
-    transition: 0.3s;
-  }
-  button>p{
-    position: relative;
-    bottom: 18px ;
-    right: 17px;
-    /* text-align: center; */
-  }
-  button:hover {
-    background-color: chocolate;
-  }
+  background-color: coral;
+  border-radius: 5px;
+  opacity: 0.6;
+  color: white;
+  padding: 16px 40px;
+  text-align: center;
+  /* margin-top: 50px; */
+  vertical-align: middle;
+  opacity: 2;
+  transition: 0.3s;
+}
+button > p {
+  position: relative;
+  bottom: 18px;
+  right: 17px;
+  /* text-align: center; */
+}
+button:hover {
+  background-color: chocolate;
+}
+
+/* animation */
 
 
-  /* animation */
- 
-.zoom {
-    padding: 50px;
-    /* background-color: green; */
-    transition: transform .2s;
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
+@media only screen and (max-width: 550) {
+  /* #imagebox > img {
+    height: 50px;
+    width: 70%;
+  } */
+  #main{
+    display: block !important;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
-  .zoom:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
+  /* .main>#box1{
+    flex-direction:auto;
   }
-
-  @media only screen and (max-width:500){
-    #imagebox>img{
-        height: 50px;
-        width: 70%;
-    }
-  }
+  #box1{
+    flex-direction: column;
+    flex: auto;
+  } */
+}
