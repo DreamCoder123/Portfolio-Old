@@ -30,14 +30,19 @@
   line-height: 25px;
 }
 #content > p {
-  color: rgba(0, 0, 0, 0.568);
+  color: rgba(248, 248, 248, 0.973);
+}
+#content>h1{
+  color: coral;
 }
 #sign > img {
   max-width: 100%;
   margin: auto;
+  background-color:azure;
 }
 body {
   margin: auto;
+  background-color: rgba(0, 0, 0, 0.705) !important;
 }
 
 
